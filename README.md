@@ -21,7 +21,7 @@ Or install it yourself as:
 1. Add a `db_seeds` table to your database:
 
     ```
-    bundle exec rails generate db_seed:install
+    bundle exec rake generate db_seed:install
     ```
 
     This will generate ``create_active_record_seeds.rb`` file in your application
