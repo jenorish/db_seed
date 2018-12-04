@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = %q{To Avoid running seeds file multiple times.}
   spec.description = %q{To Avoid running seeds file multiple times, So that records won't create multiple times.}
-  spec.homepage = "http://jenorish.blogspot.com/"
+  spec.homepage = "https://github.com/jenorish/db_seed"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
