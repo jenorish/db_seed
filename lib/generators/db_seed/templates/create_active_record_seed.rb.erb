@@ -1,0 +1,14 @@
+# This migration creates the `db_seeds` table, the only schema PT requires.
+# All other migrations PT provides are optional.
+class CreateActiveRecordSeed < ActiveRecord::Migration <%= migration_version %>
+
+  # The largest text column available in all supported RDBMS.
+
+  def change
+    create_table :db_seeds do |t|
+      t.string :md5_checksum
+      t.datetime :created_at
+    end
+    add_index :db_seeds, %i(md5_checksum)
+  end
+end
