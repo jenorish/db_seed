@@ -1,6 +1,6 @@
 # DbSeed
 
-To Avoid running seeds file multiple times.
+To Avoid running seeds file multiple times
 
 ## Installation
 
